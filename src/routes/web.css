@@ -1,0 +1,12 @@
+/* .web{
+    
+    background: rgba(203,203,210,.15);
+    position: relative;
+    float: right;
+    width: calc(100% - 260px);
+} */
+.main_container{
+    display: flex;
+    background-color: #f7f7f8;
+    
+}
