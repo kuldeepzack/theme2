@@ -158,8 +158,8 @@ p{ padding: 5px;}
 .cked{
   display: flex;
   align-items: center;
-  width: 89px;
-
+  /* width: 318px; */
+flex-direction: column;
   justify-content: space-between;
 }
 

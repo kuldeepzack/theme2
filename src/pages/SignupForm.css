@@ -1,0 +1,5 @@
+.right-container{
+    width: calc(100% - 250px);
+    padding: 30px;
+    margin-left: 250px;
+}

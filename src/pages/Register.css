@@ -1,0 +1,9 @@
+.rightside_container1{
+    width: calc(100% - 250px);
+    padding: 30px;
+    margin-left: 250px;
+}
+
+body{
+    line-height: 1;
+}

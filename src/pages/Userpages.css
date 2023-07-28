@@ -1,0 +1,12 @@
+.USERPAGE {
+    display: flex;
+    align-items: center;
+    margin-left: 410px;
+    padding: 30px;}
+
+
+    .backgrndtop{
+        background-image: url("../assets/images/a1.avif");
+        height: 200px;
+     
+    }

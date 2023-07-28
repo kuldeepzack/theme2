@@ -1,0 +1,26 @@
+.Action{
+    height: 26px;
+}
+
+.Action1 {
+    height: 19px;
+}
+
+.striptable1 {
+    border: 3px solid gray;
+}
+
+td.action2 {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.table{
+    margin-bottom: 0px;
+}
+
+.striptable2 {
+    border: 3px solid gray;
+}
