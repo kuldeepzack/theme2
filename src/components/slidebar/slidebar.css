@@ -68,6 +68,10 @@ img.logo_view2 {
   width: 28px;
  
 }
+.logo_view1 {
+  width: 25px;
+ 
+}
 .nav-icon-container {
   display: flex;
   align-items: center;
@@ -91,9 +95,20 @@ img.logo_view2 {
  
   color: white;
 }
+.nav-subitem {
+  margin-left: 12px;
+  font-size: 16px;
+ 
+  color: white;
+}
+.nav-subitem button {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
 .nav-item1 {
 
-margin-left: 42px;
+margin-left: 33px;
 }
 
 .caret{
@@ -129,8 +144,8 @@ margin-left: 42px;
   visibility: visible;
   height: auto;
   max-height: 290px;
-  opacity: 1.5;
-  transition: max-height 1s, opacity 1s, visibility 1s ease;
+  opacity: 1;
+  transition: max-height 1s, opacity 0.5s, visibility 0.5s ease;
 }
 .copyright1{
   color: #f4f6fd;
@@ -142,4 +157,11 @@ margin-left: 42px;
   bottom: 0px;
   right: 0;
   padding: 5px 5px 15px 5px;
+  
+}
+
+.nav-icon-container2 {
+  display: flex;
+  align-items: center;
+  padding: 15px;
 }
