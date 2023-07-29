@@ -186,7 +186,7 @@ function Dashboard() {
                                     <p>Last Campaign Performance</p>
                                 </div>
                                 <div className='lwr1-container'>
-                                    <img className='lwr' width="450" src={require("../assets/images/email.png")} alt="..." />
+                                    <img className='lwr'  src={require("../assets/images/email.png")} alt="..." />
                                 </div>
 
 
@@ -251,7 +251,7 @@ function Dashboard() {
                                     <p>All products including Taxes</p>
                                 </div>
                                 <div className='lwr1-container'>
-                                    <img className='lwr' src={rd} width="700" alt="..." />
+                                    <img className='lwr' src={rd}  alt="..." />
                                 </div>
 
                                 <div className='circle'>
