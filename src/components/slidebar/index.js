@@ -8,8 +8,11 @@ import table from "../../assets/images/table.png"
 import chart from "../../assets/images/chart.png"
 import calender from "../../assets/images/calendar.png"
 import pages from "../../assets/images/coding.png"
-import profile from "../../assets/images/profile1.jpg"
+// import profile from "../../assets/images/profile1.jpg"
 import profile1 from "../../assets/images/kd1.jpg"
+// import login from "../../assets/images/login (1).png"
+import signup from "../../assets/images/add-user (1).png"
+import table1 from "../../assets/images/table (1).png"
 
 
 function Slidebar() {
@@ -31,7 +34,7 @@ function Slidebar() {
     return (
         <>
             <div className='slidebar-container'>
-                {/* <div className="overlay"></div> */}
+             
                 <div className='slides'>
                     <div className='sidebar-logo'>
                         <img
@@ -86,14 +89,28 @@ function Slidebar() {
                             </div>
                             <div className={!showDropdown ? 'nav-item1' : 'nav-item1 nav-item1-active'}>
                                 <Link to={'/LoginForm'} className="decoration-none">
-                                    <div className='nav-item'>
+                                <div className="nav-icon-container2">
+                                <img
+                                    className="logo_view1"
+                                    src={signup}
+                                    alt="NachDark"
+                                />
+                                    <div className='nav-subitem'>
                                         <button>Login</button>
                                     </div>
+                                    </div>
                                 </Link>
-                                <br/>
+                            
                                 <Link to={'/SignupForm'} className="decoration-none">
-                                    <div className='nav-item'>
+                                <div className="nav-icon-container2">
+                                <img
+                                    className="logo_view1"
+                                    src={signup}
+                                    alt="NachDark"
+                                />
+                                    <div className='nav-subitem'>
                                         <button>Signup</button>
+                                    </div>
                                     </div>
                                 </Link>
                             </div>
@@ -115,23 +132,44 @@ function Slidebar() {
                             </div>
                             <div className={!show ? 'nav-item1' : 'nav-item1 nav-item1-active'}>
                                 <Link to={'/Regular'} className="decoration-none">
-                                    <div className='nav-item'>
+                                <div className="nav-icon-container2">
+                                <img
+                                    className="logo_view1"
+                                    src={table1}
+                                    alt="NachDark"
+                                />
+                                    <div className='nav-subitem'>
                                         <button>Regular</button>
 
                                     </div>
-                                </Link>
-
-                                <br/>
-
-                                <Link to={'/Extended'} className="decoration-none">
-                                    <div className='nav-item'>
-                                        <button>Extended</button>
                                     </div>
                                 </Link>
-                                <br/>
+
+                         
+
+                                <Link to={'/Extended'} className="decoration-none">
+                                <div className="nav-icon-container2">
+                                <img
+                                    className="logo_view1"
+                                    src={table1}
+                                    alt="NachDark"
+                                />
+                                    <div className='nav-subitem'>
+                                        <button>Extended</button>
+                                    </div>
+                                    </div>
+                                </Link>
+                              
                                 <Link to={'/Reacttable'} className="decoration-none">
-                                    <div className='nav-item'>
+                                <div className="nav-icon-container2">
+                                <img
+                                    className="logo_view1"
+                                    src={table1}
+                                    alt="NachDark"
+                                />
+                                    <div className='nav-subitem'>
                                         <button>Reacttable</button>
+                                    </div>
                                     </div>
                                 </Link>
                             </div>
@@ -192,14 +230,28 @@ function Slidebar() {
                             </div>
                             <div className={!show1 ? 'nav-item1' : 'nav-item1 nav-item1-active'}>
                                 <Link to={'/Userpages'} className="decoration-none">
-                                    <div className='nav-item'>
+                                <div className="nav-icon-container2">
+                            <img
+                                    className="logo_view"
+                                    src={pages}
+                                    alt="NachDark"
+                                />
+                                    <div className='nav-subitem'>
                                         <button>Userpages</button>
                                     </div>
+                                    </div>
                                 </Link>
-<br/>
+
                                 <Link to={'/Register'} className="decoration-none">
-                                    <div className='nav-item'>
+                                <div className="nav-icon-container2">
+                            <img
+                                    className="logo_view"
+                                    src={pages}
+                                    alt="NachDark"
+                                />
+                                    <div className='nav-subitem'>
                                         <button>Register</button>
+                                    </div>
                                     </div>
                                 </Link>
                             </div>
